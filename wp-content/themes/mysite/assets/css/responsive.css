@@ -1,0 +1,145 @@
+/* 1199px 991px 767px 600px 500px 1920, 1660, 1440. 1366, 1280, 1024, 768, 414, 375, 320*/
+
+@media (max-width: 1660px) {
+
+}
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 1366px) {
+
+}
+@media (max-width: 1280px) {
+	.slider .item_child {
+	width: 100%;
+}
+}
+@media (max-width: 1233px){
+	.for_page .container {
+	max-width: 100%;
+}
+.container_testimonials {
+	max-width: 100%;
+}
+}
+
+@media (max-width: 1199px) {
+	.question_box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_block {
+	width: 100%;
+}
+}
+
+@media (max-width: 991px) {
+	.menu_bar{
+		display: none;
+	}
+	.burger-menu{
+		display: block;
+	}
+	.nav_menu .number { 
+		display: block;
+	}
+	.logo{
+		margin-left: 80px;
+	}
+	.logo img{
+		width: 30px;
+		height: 40px;
+	}
+	.testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+}
+
+@media (max-width: 767px) {
+	.container_testimonials {
+	width: 100%;
+
+}
+.modal .form .fname,
+.modal .form .lname {
+    max-width: 100%;
+}
+.modal .form .full_name {
+    flex-direction: column;
+}
+}
+
+@media (max-width: 600px) {
+	.question_text {
+    max-width: 320px;
+}
+.question_text .title h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+		text-align: center;
+}
+.question_text .title p {
+	text-align: center;
+}
+
+.accordion-item-header {
+	width: 316px;
+	font-size: 12px;
+}
+.accordion-item {
+	width: 320px;
+}
+.question .accordion {
+    max-width: 320px;
+    margin-top: 20px;
+}
+.accordion-item-header::after {
+    right: 10px;
+}
+.accordion-item-header.active::after {
+    right: 10px;
+}
+.slider .slick-dots button {
+    margin: 0 5px;
+}
+.slider .item_child {
+		justify-content: space-evenly;
+		padding: 5px;
+	}
+}
+@media (max-width: 500px) {
+	.modal .form .conditions_label {
+    line-height: 40px;
+}
+.modal .modal_head h2 {
+    font-size: 30px;
+}
+}
+
+@media (max-width: 414px) {
+	
+}
+
+@media (max-width: 375px) {
+	.nav_menu .number {
+    background: rgb(231, 86, 36);
+    border: 1px solid rgb(231, 86, 36);
+    border-radius: 100px;
+    width: 171px;
+    height: 46px;
+    transition: all 0.6s linear 0s;
+    margin: 3px 0px;
+    margin-right: -18px;
+}
+}
+
+@media (max-width: 320px) {
+	.burger-menu_active .burger-menu_nav {
+    width: 100%;
+	}
+}
